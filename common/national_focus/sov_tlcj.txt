@@ -1,0 +1,245 @@
+focus_tree = {
+	id = SOV_Stalin_dead
+	
+	country = {
+		factor = 0
+	}
+	
+	default = no
+
+	focus = {
+		id = SOV_TUOSIJIHUIGUI
+		#icon = 11121
+		x = 2
+		y = 2
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			SOV = {
+				country_event = cccp.1
+			}
+		}
+		
+	}
+    
+	focus = {
+		id = SOV_Stalin_dead_2
+		#icon = GFX_SOV_Stalin_dead_2.gfx
+		relative_position_id = SOV_Stalin_dead_2
+		prerequisite = { focus = SOV_Stalin_dead_2 }
+		x = -2
+		y = 1
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			set_country_leader_description = {
+	        ideology = communism
+	        desc = SOV_lev_trotsky
+
+            }
+		}
+		
+	}
+
+	focus = {
+		id = SOV_TUOSIJI2
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_TUOSIJI2
+		prerequisite = { focus = SOV_TUOSIJI2 }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			add_ideas = dangneimingzhu #党内民主：PP+5%，稳定度+10%
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_3#控制军队
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		prerequisite = { focus = SOV_Stalin_dead_1 }
+		x = 2
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			stability_factor = 0.1
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_4#超工业化
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		prerequisite = { 
+			focus = SOV_Stalin_dead_2
+			focus = SOV_Stalin_dead_3
+		    }
+		x = 0
+		y = 2
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			add_ideas = chaogongyehua#超工业化：生活消费品+35% 建造速度+50%
+			#启动决议组 超工业化。要求：在250日内工厂大于150，国内钢铁产量大于400。完成效果：超工业化追加效果：生活消费品-50%，生产产能+25%，生产产出+25%，生产效率+25%。稳定度+10%
+			#未完成时效果：稳定度-50%，战争支持度-50%，人力-10000000
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_7#清洗反革命份子
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_4
+		mutually_exclusive = { focus = SOV_Stalin_dead_8 }
+		prerequisite = { 
+			focus = SOV_Stalin_dead_4
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_left_purges_tt
+			IF = { limit = { has_character = SOV_nikolay_bukharin } retire_character = SOV_andrey_zdanov }
+			IF = { limit = { has_character = SOV_vyacheslav_molotov_new } retire_character = SOV_vyacheslav_molotov_new }
+			IF = { limit = { has_character = SOV_sergo_ordzhonikidze } retire_character = SOV_sergo_ordzhonikidze }
+			IF = { limit = { has_character = SOV_lazar_kaganovich_new } retire_character = SOV_lazar_kaganovich_new }
+			IF = { limit = { has_character = SOV_anastas_mikoyan } retire_character = SOV_anastas_mikoyan }
+			IF = { limit = { has_character = SOV_Georgy_Malenkov } retire_character = SOV_Georgy_Malenkov }
+			IF = { limit = { has_character = SOV_nikolay_voznesensky_new } retire_character = SOV_nikolay_voznesensky_new }
+			IF = { limit = { has_character = SOV_kliment_voroshilov_new } retire_character = SOV_kliment_voroshilov_new }
+			set_variable = { SOV_factionalism_political_power_factor = 0 }
+			custom_effect_tooltip = SOV_left_right_purges_factionalism_tt
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_8#去你妈的大清洗，老子要党内民主
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_7
+		prerequisite = { 
+			focus = SOV_Stalin_dead_7
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			show_ideas_tooltip = 
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_5#重建契卡
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_7
+		prerequisite = { 
+			focus = SOV_Stalin_dead_7
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			add_ideas = SOV_nkvd_nsb
+			SOV_paranoia_medium_increase_effect = ye
+		}
+		
+	}
+}

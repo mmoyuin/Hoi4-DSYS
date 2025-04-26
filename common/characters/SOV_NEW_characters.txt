@@ -1,0 +1,51 @@
+#舵手已逝的角色们
+
+#卡冈诺维奇
+characters = {
+	SOV_lazar_kaganovich_leader = {
+	    name = SOV_lazar_kaganovich_leader
+	    portraits = {
+		    civilian = {
+			    large = GFX_portrait_SOV_lazar_kaganovich
+		    }
+		}
+		country_leader = {
+			ideology = stalinism
+			traits = { stalin_heart_of_steel }
+			expire = "1965.1.1"
+			id = -1
+		}
+	}
+	    
+    #苏维埃紧急委员会
+	SOV_soviet_committee = {
+		name = SOV_soviet_committee
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_supreme_soviet
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1"
+			id = -1
+		}
+		
+	}
+
+	SOV_soviet_committee = {
+		name = SOV_Nikolai_Yezhov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_Nikolai_Yezhov
+			}
+		}
+		country_leader = {
+			ideology = stalinism
+			expire = "1965.1.1"
+			id = -1
+		}
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+SOV_debug_decision_category = {
+	allowed = {
+		is_debug = yes
+	}
+	priority = 233
+}

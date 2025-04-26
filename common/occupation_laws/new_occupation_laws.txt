@@ -1,0 +1,38 @@
+#你好我的朋友，你一定是来看看占领法案的吧
+establish_local_soviets = {#建立地方苏维埃
+	icon = 5
+	sound_effect = "Martial_Law_Interface_No_Garrison"
+
+	state_modifier = {
+		resistance_target = -0.15 
+		required_garrison_factor = 0.5
+		resistance_damage_to_garrison = 0.25
+		resistance_decay = 0.25
+		compliance_growth = 0.15
+		resistance_activity = -0.1
+		local_resources = 0.25
+        local_manpower = -0.75
+		local_factories = 0.15
+	}
+
+	suppressed_state_modifier = {
+		resistance_target = -0.5
+		required_garrison_factor = -0.75
+		resistance_damage_to_garrison = -0.75
+		compliance_growth = 0.5
+        enemy_operative_detection_chance = 0.25
+		enemy_intel_network_gain_factor_over_occupied_tag = -0.25
+        local_manpower = 1
+		local_supplies = 0.5
+	}
+
+	visible = {
+		tag = SOV
+
+	}
+
+	ai_will_do = {
+		base = 233
+	}
+}
+

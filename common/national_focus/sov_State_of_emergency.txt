@@ -1,0 +1,827 @@
+focus_tree = {
+	id = SOV_Stalin_dead
+	
+	country = {
+		factor = 0
+	}
+	
+	default = no
+
+	focus = {
+		id = SOV_Stalin_dead_1
+		#icon = 在.gfx文件里的图片名
+		x = 2
+		y = 0
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			SOV = {
+				country_event = cccp.1
+			}
+		}
+		
+	}
+    
+	focus = {
+		id = SOV_Stalin_dead_2
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		prerequisite = { focus = SOV_Stalin_dead_1 }
+		x = -1
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_6
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		prerequisite = { 
+			focus = SOV_Stalin_dead_2
+	    }
+		prerequisite = { 
+			focus = SOV_Stalin_dead_3
+	    }
+
+		x = 0
+		y = 2
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_3
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		prerequisite = { focus = SOV_Stalin_dead_1 }
+		x = 1
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_4
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_6
+		prerequisite = { 
+			focus = SOV_Stalin_dead_6
+		}
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_7
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_4
+		prerequisite = { 
+			focus = SOV_Stalin_dead_4
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_8
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_7
+		prerequisite = { 
+			focus = SOV_Stalin_dead_7
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_5
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_7
+		prerequisite = { 
+			focus = SOV_Stalin_dead_7
+		    }
+		x = 0
+		y = 1
+		
+		cost = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+		
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_9
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_1
+		
+		x = 9
+		y = 0
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_10
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_9
+		prerequisite = { 
+			focus = SOV_Stalin_dead_9
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_11
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_10
+		prerequisite = { 
+			focus = SOV_Stalin_dead_10
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_12
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_11
+		prerequisite = { 
+			focus = SOV_Stalin_dead_11
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_13
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_12
+		prerequisite = { 
+			focus = SOV_Stalin_dead_12
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_14
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_13
+		prerequisite = { 
+			focus = SOV_Stalin_dead_13
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_15
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_14
+		prerequisite = { 
+			focus = SOV_Stalin_dead_14
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_16
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_15
+		prerequisite = { 
+			focus = SOV_Stalin_dead_15
+		}
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_17
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_9
+		prerequisite = { 
+			focus = SOV_Stalin_dead_9
+		}
+		x = -4
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_18
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_17
+		prerequisite = { 
+			focus = SOV_Stalin_dead_17
+		}
+		x = -2
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_19
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_17
+		prerequisite = { 
+			focus = SOV_Stalin_dead_17
+		}
+		x = 0
+		y = 1
+	
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_20
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_17
+		prerequisite = { 
+			focus = SOV_Stalin_dead_17
+		}
+		x = 2
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_21
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_18
+		prerequisite = { 
+			focus = SOV_Stalin_dead_18
+            focus = SOV_Stalin_dead_20
+		}
+		mutually_exclusive = {
+		    focus = SOV_Stalin_dead_22
+		}
+		x = 1
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_22
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_20
+		prerequisite = { 
+			focus = SOV_Stalin_dead_18
+            focus = SOV_Stalin_dead_20
+		}
+		mutually_exclusive = {
+		    focus = SOV_Stalin_dead_21
+		}
+		x = -1
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_23
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_18
+		prerequisite = { 
+			focus = SOV_Stalin_dead_18
+		}
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_24
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_18
+		prerequisite = { 
+			focus = SOV_Stalin_dead_23
+		}
+		x = 0
+		y = 3
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_25
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_19
+		prerequisite = { 
+			focus = SOV_Stalin_dead_19
+		}
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_26
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_19
+		prerequisite = { 
+			focus = SOV_Stalin_dead_25
+		}
+		x = 0
+		y = 3
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_27
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_20
+		prerequisite = { 
+			focus = SOV_Stalin_dead_20
+		}
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_28
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_20
+		prerequisite = { 
+			focus = SOV_Stalin_dead_27
+		}
+		x = 0
+		y = 3
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_29
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_26
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_30
+		#icon = 在.gfx文件里的图片名
+		relative_position_id = SOV_Stalin_dead_9
+		
+		x = 4
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

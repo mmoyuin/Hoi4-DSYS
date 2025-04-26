@@ -1,0 +1,45 @@
+﻿###########################
+# 这里是新闻
+###########################
+
+add_namespace = ussr
+news_event = {
+	id = ussr.1
+    picture = GFX_事件图名
+    title = ussr.1.t 
+    desc = ussr.1.d 
+    is_triggered_only = yes
+
+    major = yes
+
+	option = {
+		name = ussr.1.a
+        trigger = {
+            original_tag = SOV
+        }
+	}
+
+    option = {
+		name = ussr.1.b
+        trigger = {
+            OR = {
+                has_government = democratic
+                has_government = fascism
+                has_government = neutrality
+            }
+        }
+	}
+
+    option = {
+		name = ussr.1.c
+        trigger = {
+            AND = {
+                has_government = communism
+                NOT = {
+                    original_tag = SOV
+                }
+            }
+
+        }
+	}
+}

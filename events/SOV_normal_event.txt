@@ -1,0 +1,83 @@
+﻿###########################
+# 事件都写这里
+###########################
+
+add_namespace = cccp
+country_event = {
+	id = cccp.1 #斯大林遇刺
+    picture = GFX_事件图片名
+    title = cccp.1.t 
+    desc = cccp.1.d 
+	
+	trigger = { 
+        date > 1936.6.29
+    }
+    fire_only_once = yes
+	
+    option = { 
+        name = cccp.1.a
+        
+        kill_country_leader = yes
+        add_country_leader_role = {
+        character = SOV_lazar_kaganovich_leader
+            promote_leader = yes
+            country_leader = {
+                ideology = stalinism
+                traits = { stalin_heart_of_steel }
+                expire = "1965.1.1"
+                id = -1
+            }
+        }
+        
+		
+    }
+
+	option = { 
+		name = cccp.1.b
+	    
+        load_focus_tree = SOV_Stalin_dead
+        kill_country_leader = yes
+        add_country_leader_role = {
+            character = SOV_soviet_committee
+                promote_leader = yes
+                country_leader = {
+                    ideology = stalinism
+                    expire = "1965.1.1"
+                    id = -1
+                }
+            }
+        }
+    }  
+}
+   
+
+
+country_event = {
+	id = cccp.2 #斯大林葬礼
+    picture = GFX_事件图片名
+    title = cccp.2.t 
+    desc = cccp.2.d 
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = { 
+        name = cccp.2.a
+        
+        news_event = ussr.1
+	}
+}
+
+country_event = {
+	id = cccp.3 #舵手已逝抛锚启航
+    picture = GFX_事件图片名
+    title = cccp.3.t 
+    desc = cccp.3.d 
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = { 
+        name = cccp.3.a
+        
+        news_event = ussr.1
+	}
+}

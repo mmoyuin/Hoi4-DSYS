@@ -1,0 +1,43 @@
+#ideas = {
+	#country = {
+		#picture = 自动检测或指定，指定的图片为在.gfx文件里的图片名（name那行），移除GFX_idea后的名字
+
+			allowed_civil_war = {
+				内战国家继承的条件 如has_government = democratic
+			}
+		
+			on_add = { 获得该idea时的效果
+				效果
+			}
+			on_remove = { 移除该idea时的效果
+				效果
+			}
+
+			do_effect = { 满足什么条件时这个idea才会真正有效
+				条件
+			}
+			cancel = { 满足什么条件会移除该idea
+				条件
+			}
+			modifier = {
+				国家scope的modifier
+			}
+
+			equipment_bonus = {
+				装备名字或分类 = {
+					装备scope的modifier
+					instant = yes/no 是否立刻生效
+				}
+			}
+
+			research_bonus = {
+				科研分类 = 数值
+			}
+
+			rule = { 设定国家规则，如是否可以加入阵营、是否可以对其他国家造战争借口
+				国家规则可在mod常用代码里找到
+			}
+
+		}
+	}
+}

@@ -1,0 +1,25 @@
+###########################
+# 不知道要写啥了
+###########################
+
+add_namespace = sov_debug
+
+country_event = {
+	id = sov_debug.1 #检测到舵手已逝submod
+    picture = GFX_事件图片名
+    title = sov_debug.1.t 
+    desc = sov_debug.1.d 
+    is_triggered_only = yes
+    fire_only_once = yes
+
+    option = { 
+        name = sov_debug.1.a #斯大林不会被刺杀
+        SOV_redarmyairforce_events_history_effects = yes
+        SOV_DQX_events_history_effects = yes
+	}
+
+    option = { 
+        name = sov_debug.1.b #斯大林会被刺杀
+        
+	}
+}
