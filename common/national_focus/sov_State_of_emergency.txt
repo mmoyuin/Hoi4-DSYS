@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_1
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_1
 		x = 2
 		y = 0
 		
@@ -35,7 +35,7 @@ focus_tree = {
     
 	focus = {
 		id = SOV_Stalin_dead_2
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_2
 		relative_position_id = SOV_Stalin_dead_1
 		prerequisite = { focus = SOV_Stalin_dead_1 }
 		x = -1
@@ -61,7 +61,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_6
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_6
 		relative_position_id = SOV_Stalin_dead_1
 		prerequisite = { 
 			focus = SOV_Stalin_dead_2
@@ -93,7 +93,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_3
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_3
 		relative_position_id = SOV_Stalin_dead_1
 		prerequisite = { focus = SOV_Stalin_dead_1 }
 		x = 1
@@ -119,7 +119,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_4
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_4
 		relative_position_id = SOV_Stalin_dead_6
 		prerequisite = { 
 			focus = SOV_Stalin_dead_6
@@ -147,7 +147,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_7
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_7
 		relative_position_id = SOV_Stalin_dead_4
 		prerequisite = { 
 			focus = SOV_Stalin_dead_4
@@ -175,7 +175,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_8
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_8
 		relative_position_id = SOV_Stalin_dead_7
 		prerequisite = { 
 			focus = SOV_Stalin_dead_7
@@ -203,7 +203,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_5
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_5
 		relative_position_id = SOV_Stalin_dead_7
 		prerequisite = { 
 			focus = SOV_Stalin_dead_7
@@ -231,7 +231,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_9
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_9
 		relative_position_id = SOV_Stalin_dead_1
 		
 		x = 9
@@ -256,7 +256,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_10
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_10
 		relative_position_id = SOV_Stalin_dead_9
 		prerequisite = { 
 			focus = SOV_Stalin_dead_9
@@ -283,7 +283,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_11
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_11
 		relative_position_id = SOV_Stalin_dead_10
 		prerequisite = { 
 			focus = SOV_Stalin_dead_10
@@ -310,7 +310,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_12
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_12
 		relative_position_id = SOV_Stalin_dead_11
 		prerequisite = { 
 			focus = SOV_Stalin_dead_11
@@ -337,7 +337,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_13
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_13
 		relative_position_id = SOV_Stalin_dead_12
 		prerequisite = { 
 			focus = SOV_Stalin_dead_12
@@ -364,7 +364,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_14
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_14
 		relative_position_id = SOV_Stalin_dead_13
 		prerequisite = { 
 			focus = SOV_Stalin_dead_13
@@ -391,7 +391,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_15
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_15
 		relative_position_id = SOV_Stalin_dead_14
 		prerequisite = { 
 			focus = SOV_Stalin_dead_14
@@ -418,7 +418,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_16
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_16
 		relative_position_id = SOV_Stalin_dead_15
 		prerequisite = { 
 			focus = SOV_Stalin_dead_15
@@ -445,7 +445,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_17
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Continue_Second_Five_Year_Plan
 		relative_position_id = SOV_Stalin_dead_9
 		prerequisite = { 
 			focus = SOV_Stalin_dead_9
@@ -472,7 +472,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_18
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_18
 		relative_position_id = SOV_Stalin_dead_17
 		prerequisite = { 
 			focus = SOV_Stalin_dead_17
@@ -499,7 +499,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_19
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Academy_Of_Science_CCCP
 		relative_position_id = SOV_Stalin_dead_17
 		prerequisite = { 
 			focus = SOV_Stalin_dead_17
@@ -526,7 +526,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_20
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_20
 		relative_position_id = SOV_Stalin_dead_17
 		prerequisite = { 
 			focus = SOV_Stalin_dead_17
@@ -553,7 +553,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_21
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Collectivization_Ultimat_Ccompletion
 		relative_position_id = SOV_Stalin_dead_18
 		prerequisite = { 
 			focus = SOV_Stalin_dead_18
@@ -584,7 +584,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_22
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_22
 		relative_position_id = SOV_Stalin_dead_20
 		prerequisite = { 
 			focus = SOV_Stalin_dead_18
@@ -615,7 +615,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_23
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Construction_Industry_Structure
 		relative_position_id = SOV_Stalin_dead_18
 		prerequisite = { 
 			focus = SOV_Stalin_dead_18
@@ -642,7 +642,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_24
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Improve_Salary_Organization
 		relative_position_id = SOV_Stalin_dead_18
 		prerequisite = { 
 			focus = SOV_Stalin_dead_23
@@ -669,7 +669,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_25
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_High_Science_Technology_Education
 		relative_position_id = SOV_Stalin_dead_19
 		prerequisite = { 
 			focus = SOV_Stalin_dead_19
@@ -696,7 +696,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_26
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Cultural_Revolution
 		relative_position_id = SOV_Stalin_dead_19
 		prerequisite = { 
 			focus = SOV_Stalin_dead_25
@@ -723,7 +723,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_27
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Transportation_Network
 		relative_position_id = SOV_Stalin_dead_20
 		prerequisite = { 
 			focus = SOV_Stalin_dead_20
@@ -750,7 +750,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_28
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_28
 		relative_position_id = SOV_Stalin_dead_20
 		prerequisite = { 
 			focus = SOV_Stalin_dead_27
@@ -777,7 +777,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_29
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_EI_Complete_Second_Five_Year_Plan
 		relative_position_id = SOV_Stalin_dead_26
 		
 		x = 0
@@ -802,7 +802,7 @@ focus_tree = {
 
 	focus = {
 		id = SOV_Stalin_dead_30
-		#icon = 在.gfx文件里的图片名
+		icon = GFX_goal_SOV_Stalin_dead_30
 		relative_position_id = SOV_Stalin_dead_9
 		
 		x = 4

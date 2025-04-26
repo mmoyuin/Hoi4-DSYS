@@ -1,0 +1,95 @@
+spriteTypes = {	
+
+	#### 过渡国策图标
+
+	SpriteType = {
+	name = "GFX_goal_SOV_Stalin_dead_1"
+	texturefile = "gfx/interface/goals/SOV_Stalin_dead_1.dds"			
+	}	
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_2"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_2.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_3"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_3.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_4"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_4.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_5"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_5.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_6"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_6.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_7"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_7.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_8"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_8.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_9"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_9.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_10"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_10.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_11"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_11.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_12"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_12.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_13"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_13.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_14"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_14.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_15"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_15.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_16"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_16.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_18"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_18.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SOV_Stalin_dead_20"
+		texturefile = "gfx/interface/goals/SOV_Stalin_dead_20.dds"			
+	}
+}	
+	
