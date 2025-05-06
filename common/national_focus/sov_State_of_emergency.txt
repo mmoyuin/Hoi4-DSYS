@@ -804,8 +804,356 @@ focus_tree = {
 		id = SOV_Stalin_dead_30
 		icon = GFX_goal_SOV_Stalin_dead_30
 		relative_position_id = SOV_Stalin_dead_9
+		prerequisite = { 
+			focus = SOV_Stalin_dead_9
+		}
 		
 		x = 4
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_31
+		icon = GFX_goal_SOV_Stalin_dead_31
+		relative_position_id = SOV_Stalin_dead_30
+		prerequisite = { 
+			focus = SOV_Stalin_dead_30
+		}
+		
+		x = -2
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_32
+		icon = GFX_goal_SOV_Stalin_dead_32
+		relative_position_id = SOV_Stalin_dead_30
+		prerequisite = { 
+			focus = SOV_Stalin_dead_30
+		}
+		
+		x = 0
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_33
+		icon = GFX_goal_SOV_Stalin_dead_33
+		relative_position_id = SOV_Stalin_dead_30
+		prerequisite = { 
+			focus = SOV_Stalin_dead_30
+		}
+		
+		x = 2
+		y = 1
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_34
+		icon = GFX_goal_SOV_Stalin_dead_34
+		relative_position_id = SOV_Stalin_dead_30
+		prerequisite = { 
+			focus = SOV_Stalin_dead_30
+		}
+		
+		x = -1
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_35
+		icon = GFX_goal_SOV_Stalin_dead_35
+		relative_position_id = SOV_Stalin_dead_30
+		prerequisite = { 
+			focus = SOV_Stalin_dead_30
+		}
+		
+		x = 1
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_36
+		icon = GFX_goal_SOV_Stalin_dead_36
+		relative_position_id = SOV_Stalin_dead_31
+		prerequisite = { 
+			focus = SOV_Stalin_dead_31
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_37
+		icon = GFX_goal_SOV_Stalin_dead_37
+		relative_position_id = SOV_Stalin_dead_32
+		prerequisite = { 
+			focus = SOV_Stalin_dead_32
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_38
+		icon = GFX_MR_Leningrad_Institute_Of_Technology
+		relative_position_id = SOV_Stalin_dead_33
+		prerequisite = { 
+			focus = SOV_Stalin_dead_33
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_39
+		icon = GFX_goal_SOV_Stalin_dead_39
+		relative_position_id = SOV_Stalin_dead_34
+		prerequisite = { 
+			focus = SOV_Stalin_dead_36
+		}
+		prerequisite = { 
+			focus = SOV_Stalin_dead_37
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_40
+		icon = GFX_goal_SOV_Stalin_dead_40
+		relative_position_id = SOV_Stalin_dead_35
+		prerequisite = { 
+			focus = SOV_Stalin_dead_37
+		}
+		prerequisite = { 
+			focus = SOV_Stalin_dead_38
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_41
+		icon = GFX_goal_SOV_Stalin_dead_41
+		relative_position_id = SOV_Stalin_dead_37
+		prerequisite = { 
+			focus = SOV_Stalin_dead_39
+		}
+		prerequisite = { 
+			focus = SOV_Stalin_dead_40
+		}
+		
+		x = 0
+		y = 2
+		
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#search_filters = { 标签 }
+
+        available = {
+			tag = SOV
+		}
+
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = SOV_Stalin_dead_42
+		icon = GFX_goal_SOV_Stalin_dead_42
+		relative_position_id = SOV_Stalin_dead_41
+		prerequisite = { 
+			focus = SOV_Stalin_dead_41
+		}
+		
+		x = 0
 		y = 1
 		
 		cost = 3
